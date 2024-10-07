@@ -1,0 +1,113 @@
+@font-face {
+    font-family: duda;
+    src: url(./Downloads/BLKCHCRY.TTF);
+}
+
+
+
+
+
+
+body { 
+
+     font-family: netto;
+       margin: 0;
+       padding: 0;
+       background-color: #ca94b781;
+       background-position: center;
+}
+
+header {
+    background-color: rgba(37, 13, 63, 0.363);
+    color: beige;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: "duda";
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #520638ec;
+    text-decoration: none;
+}
+
+main {
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    color: rgba(182, 37, 138, 0.747);
+    font-family: Duda;
+}
+
+table {
+    width: 100px;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid rgba(109, 27, 156, 0.63);
+    padding: 10px;
+    text-align: left;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid rgba(195, 0, 255, 0.562);
+    border-radius: 5px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 5px;
+    background-color: rgb(94, 8, 51);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #520638ec;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
